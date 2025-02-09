@@ -23,7 +23,7 @@ html {
       "h i j j";
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .images{
     display: none;
   }
@@ -42,6 +42,7 @@ html {
   .mobile{
     margin: 10px;
     padding: 10px;
+    display:initial;
   }
   .mobile h1{
     color: rgb(179, 194, 102);
