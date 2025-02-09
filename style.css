@@ -22,35 +22,7 @@ html {
       "f g j j"
       "h i j j";
 }
-
-@media (max-width: 800px) {
-  .images{
-    display: none;
-  }
-  .tana{
-    display: none;
-  }
-  .tarif{
-    display: none;
-  }
-  .wish{
-    display: none;
-  }
-  body{
-    background-color: rgb(73, 24, 49);
-  }
-  .mobile{
-    margin: 10px;
-    padding: 10px;
-    display:initial;
-  }
-  .mobile h1{
-    color: rgb(179, 194, 102);
-    opacity: 1;
-  }
-  
-}
-.mobile{
+.mobile h1{
   display: none;
 }
 
@@ -129,3 +101,30 @@ h1 {
   font-size: 2rem;
   opacity: 0.8;
 }
+
+@media (max-width: 800px) {
+  .images{
+    display: none;
+  }
+  .tana{
+    display: none;
+  }
+  .tarif{
+    display: none;
+  }
+  .wish{
+    display: none;
+  }
+  body{
+    background-color: rgb(73, 24, 49);
+  }
+  .mobile{
+    margin: 10px;
+    padding: 10px;
+  }
+  .mobile h1{
+    color: rgb(179, 194, 102);
+    opacity: 1;
+  }  
+}
+
